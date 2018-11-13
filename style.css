@@ -1,0 +1,251 @@
+.grid {
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-gap:10px;
+	border:1px black solid;
+
+}
+.grid2 {
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-gap:10px;
+	border:1px black solid;
+	background-color:white;
+
+}
+.menubar{
+	grid-column:span 1;
+	border:1px red solid;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size:20px;
+	text-align:center;
+	background-color:white;
+}
+
+.headerbody {
+	background-color:white;
+	grid-column: span 4;
+	border: 1px black solid;
+	font-family:Impact, Charcoal, sans-serif;
+	color:red;
+	font-size:50px;
+	text-align:center;
+	
+}
+.claim{
+	background-color:white;
+	border: 1px red solid;
+	grid-column-start: 1;
+	grid-column-end: span 4;
+	font-family: Verdana;
+	font-size:25px;
+	text-align:center;
+
+}
+
+.info{
+	background-color: white;
+	border: 1px black solid;
+	font-family: Verdana;
+	grid-column-start: 1;
+	grid-column-end: span 4;
+	font-size:25px;
+	text-align:center;
+}
+p{
+	font-size:30px;
+	font-family:Verdana;
+	color:red;
+}
+
+
+a:link{
+	color:red;
+	text-decoration:underline;
+}
+
+a:visited{
+	color:red;
+}
+
+.indexbody{
+	background-image:url("images/checked.png");
+}
+.image1{
+	grid-column-start:1;
+	grid-column-end:span 1;
+	grid-gap:10px;
+	border:1px black solid;
+
+}
+.image2{
+	grid-column-start:2;
+	grid-column-end:span 1;
+	grid-gap:10px;
+	border:1px black solid;
+
+}
+.image3{
+	grid-column-start:3;
+	grid-column-end:span 2;
+	grid-gap:10px;
+	border:1px black solid;
+
+}
+.qandpbody{
+	background-image: url("images/gradient.jpg");
+}
+
+.gridv{
+	grid-column:span 1;
+	border: 1px black solid;
+	grid-gap: 10px;
+	text-align:center;
+}
+.headerbody2{
+	background-color:white;
+	grid-column: span 4;
+	border: 2px red solid;
+	font-family:Impact, Charcoal, sans-serif;
+	color:black;
+	font-size:30px;
+	text-align:center;
+	
+}
+
+span {
+	border: 1px black solid;
+	background-color:white;
+	font-size:30px;
+	color:black;
+	font-family:Impact, Charcoal, sans-serif;
+}
+.gridv2{
+	grid-column:span 1;
+	border: 1px black solid;
+	grid-gap: 10px;
+	text-align:center;
+}
+.headerbody3{
+	background-color:white;
+	grid-column: span 4;
+	border: 2px black solid;
+	font-family:Impact, Charcoal, sans-serif;
+	color:black;
+	font-size:30px;
+	text-align:center;
+	
+}
+.comfortbody{
+	background-color:#871515;
+}
+.oandd{
+	background-color:black;
+}
+.student{
+	background-image:url("images/background.jfif");
+}
+
+.gridc{
+	grid-column-start:1;
+	grid-column-end:span 4;
+	grid-gap:10px;
+	border:1px black solid;
+}
+.headerbody4{
+	background-color:white;
+	grid-column: span 4;
+	border: 4px red dashed;
+	font-family:Impact, Charcoal, sans-serif;
+	color:black;
+	font-size:30px;
+	text-align:center;
+}
+
+.headerbody5{
+	background-color:white;
+	grid-column: span 4;
+	border: 2px black solid;
+	font-family:Impact, Charcoal, sans-serif;
+	color:black;
+	font-size:30px;
+	text-align:center;
+}
+
+.grido{
+	grid-column-start:1;
+	grid-column-end:span 4;
+	grid-gap:10px;
+	border:1px black solid;
+	background-color:white;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size:20px;
+	text-align:center;
+}
+.grido1{
+	grid-column-start:1;
+	grid-column-end:span 4;
+	grid-gap:10px;
+	border:2px red solid;
+	background-color:white;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size:20px;
+	text-align:center;
+}
+.grids{
+	grid-column-start:1;
+	grid-column-end:5;
+	grid-gap:10px;
+	border:2px black solid;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size:20px;
+	text-align:center;
+	background-color:white;
+}
+	
+.grids1{
+	grid-column-start:1;
+	grid-column-end:3;
+	grid-gap:10px;
+	border:2px black solid;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size:20px;
+	text-align:center;
+	background-color:white;
+}
+	
+.grids2{
+	grid-column-start:2;
+	grid-column-end:5;
+	grid-gap:10px;
+	border:2px black solid;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size:20px;
+	text-align:center;
+	background-color:white;
+}
+.grids3{
+	grid-column-start:1;
+	grid-column-end:3;
+	grid-gap:10px;
+	border:2px black solid;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size:20px;
+	text-align:center;
+	background-color:white;
+}
+.grids4{
+	grid-column-start:1;
+	grid-column-end:3;
+	grid-gap:10px;
+	border:2px black solid;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size:20px;
+	text-align:center;
+	background-color:white;
+}
+
+.reese {
+	transform: rotate(90deg);
+}
+	
