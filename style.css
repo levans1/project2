@@ -215,7 +215,7 @@ span {
 }
 	
 .grids2{
-	grid-column-start:2;
+	grid-column-start:3;
 	grid-column-end:5;
 	grid-gap:10px;
 	border:2px black solid;
@@ -235,8 +235,8 @@ span {
 	background-color:white;
 }
 .grids4{
-	grid-column-start:1;
-	grid-column-end:3;
+	grid-column-start:3;
+	grid-column-end:5;
 	grid-gap:10px;
 	border:2px black solid;
 	font-family:Impact, Charcoal, sans-serif;
@@ -244,8 +244,3 @@ span {
 	text-align:center;
 	background-color:white;
 }
-
-.reese {
-	transform: rotate(90deg);
-}
-	
