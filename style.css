@@ -15,7 +15,7 @@
 }
 .menubar{
 	grid-column:span 1;
-	border:1px red solid;
+	border:1px black solid;
 	font-family:Impact, Charcoal, sans-serif;
 	font-size:20px;
 	text-align:center;
